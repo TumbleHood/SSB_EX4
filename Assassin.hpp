@@ -6,5 +6,5 @@ using namespace std;
 class Assassin: public Player{
     string name;
     public:
-        Assassin(coup::Game game, string name);
+        Assassin(const coup::Game& game, const string& name);
 };

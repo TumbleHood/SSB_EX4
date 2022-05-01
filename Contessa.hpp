@@ -6,6 +6,6 @@ using namespace std;
 class Contessa: public Player{
     string name;
     public:
-        Contessa(coup::Game game, string name);
-        void block(Player player);
+        Contessa(const coup::Game& game, const string& name);
+        void block(const Player& player);
 };

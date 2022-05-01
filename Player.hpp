@@ -9,7 +9,7 @@ class Player{
     public:
         void income();
         void foreign_aid();
-        int coins();
+        static int coins();
         string role();
-        void coup(Player player);
+        void coup(const Player& player);
 };

@@ -6,7 +6,7 @@ using namespace std;
 class Duke: public Player{
     string name;
     public:
-        Duke(coup::Game game, string name);
-        void block(Player player);
+        Duke(const coup::Game& game, const string& name);
+        void block(const Player& player);
         void tax();
 };

@@ -1,7 +1,6 @@
 #include "Contessa.hpp"
 
-Contessa::Contessa(Game game, string name){}
+Contessa::Contessa(const Game& game, const string& name){}
 
-void Contessa::block(Player player){
-    return;
+void Contessa::block(const Player& player){
 }

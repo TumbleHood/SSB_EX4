@@ -1,7 +1,6 @@
 #include "Ambassador.hpp"
 
-Ambassador::Ambassador(Game game, string name){};
+Ambassador::Ambassador(const Game& game, const string& name){}
 
-void Ambassador::transfer(Player from_player, Player to_player){
-    return;
-};
+void Ambassador::transfer(const Player& from_player, const Player& to_player){
+}

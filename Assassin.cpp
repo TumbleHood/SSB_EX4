@@ -1,3 +1,3 @@
 #include "Assassin.hpp"
 
-Assassin::Assassin(Game game, string name){};
+Assassin::Assassin(const Game& game, const string& name){};

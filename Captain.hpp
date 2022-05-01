@@ -6,7 +6,7 @@ using namespace std;
 class Captain: public Player{
     string name;
     public:
-        Captain(coup::Game game, string name);
-        void block(Player player);
-        void steal(Player player);
+        Captain(const coup::Game& game, const string& name);
+        void block(const Player& player);
+        void steal(const Player& player);
 };

@@ -10,8 +10,8 @@ namespace coup{
         vector<string> players_list;
         public:
             Game();
-            vector<string> players();
-            string turn();
-            string winner();
+            static vector<string> players();
+            static string turn();
+            static string winner();
     };
 }

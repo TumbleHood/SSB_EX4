@@ -1,11 +1,9 @@
 #include "Duke.hpp"
 
-Duke::Duke(Game game, string name){};
+Duke::Duke(const Game& game, const string& name){}
 
-void Duke::block(Player player){
-    return;
+void Duke::block(const Player& player){
 }
 
 void Duke::tax(){
-    return;
-};
+}
